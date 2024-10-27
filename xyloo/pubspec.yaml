@@ -1,0 +1,35 @@
+name: xylophone_app
+description: A customizable xylophone app with onboarding screens.
+
+publish_to: 'none' # Remove this line if you plan to publish the package.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_colorpicker: ^1.0.3
+  google_fonts: ^4.0.3
+  smooth_page_indicator: ^1.2.0+3
+  audioplayers: ^0.20.1 # or the latest version
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/girl.png
+    - assets/images/b.png
+    - assets/sounds/note1.wav
+    - assets/sounds/note2.wav
+    - assets/sounds/note3.wav
+    - assets/sounds/note4.wav
+    - assets/sounds/note5.wav
+    - assets/sounds/note6.wav
+    - assets/sounds/note7.wav
